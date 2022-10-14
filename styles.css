@@ -1,3 +1,8 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -72,4 +77,41 @@ li {
     width: 350px;
     margin: 8px;
 }
-    
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-header {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 16px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    border: 5px solid #3882f6;
+}
+
+.cta1 .cta2 .cta3 .cta4 {
+   display: flex;
+   max-width: 150px;
+   max-height: 150px;
+}
+
+.caption1 .caption2 .caption3 .caption4 {
+    display: flex;
+    flex-wrap: wrap;
+}
