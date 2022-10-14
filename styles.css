@@ -1,5 +1,7 @@
 .header {
     display: flex;
+    justify-content: space-around;
+    padding: 8px;
 }
 
 .header-logo {
@@ -12,19 +14,26 @@
     display: flex;
     flex-direction: column;
     margin: 0;
+    padding: 0;
 }
 
 ul {
     list-style-type: none;
     display: flex;
-    flex-direction: flex-end;
     gap: 8px;
-    
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
 }
 
 li {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.heroes {
+    display: flex;
+    justify-content: center;
 }
 
 .hero {
@@ -36,18 +45,31 @@ li {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .hero-seco-text {
     font-size: 18px;
     color: #e5e7eb;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .hero-button {
     background-color: #3882f6;
     border-radius: 6px;
+    width: 100px;
+    height: 30px;
 }
 
 .image-placeholder {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 350px;
+    margin: 8px;
 }
+    
