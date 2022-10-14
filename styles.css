@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.top {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: flex-end;
+    gap: 8px;
+    
+}
+
+li {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-seco-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    border-radius: 6px;
+}
+
+.image-placeholder {
+    background-color: #e5e7eb;
+}
