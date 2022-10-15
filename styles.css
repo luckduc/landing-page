@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    
 }
 
 .header {
@@ -102,21 +103,21 @@ li {
 }
 
 img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 10%;
     border: 5px solid #3882f6;
 }
 
-.cta1 .cta2 .cta3 .cta4 {
-   display: flex;
-   width: 150px;
-   height: 150px;
+.cta-info p {
+    width: 180px;
+    text-align: center;
+    margin: 0%;
 }
 
-.caption1 .caption2 .caption3 .caption4 {
-    display: flex;
-    flex-wrap: wrap;
+.cta1 .cta2 .cta3 .cta4 {
+    width: 180px;
+    text-align: center;
 }
 
 .quote-section {
