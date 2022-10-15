@@ -179,3 +179,15 @@ img {
     width: 85px;
     height: 30px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 30px;
+}
+
+.footer-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
