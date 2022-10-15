@@ -19,7 +19,6 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 96px;
 }
 
 ul {
@@ -39,6 +38,7 @@ li {
 .heroes {
     display: flex;
     justify-content: center;
+    padding: 84px;
 }
 
 .hero {
@@ -139,4 +139,43 @@ img {
     justify-content: flex-end;
     font-weight: 700;
     font-size: 18px;
+}
+
+.white {
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882f6;
+    width: 1725px;
+    height: 75px;
+    border-radius: 5px;
+}
+
+.blue-text {
+    color: #e5e7eb;
+}
+
+.blue-text-header {
+    font-size: 28px;
+}
+
+.blue-extra {
+    display: flex;
+    align-items: center;
+}
+
+.blue-button {
+    background-color: #3882f6;
+    border: 2px solid #e5e7eb;
+    color: #e5e7eb;
+    border-radius: 5px;
+    width: 85px;
+    height: 30px;
 }
