@@ -19,7 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 0;
+    padding: 96px;
 }
 
 ul {
@@ -81,6 +81,7 @@ li {
 .call-to-action {
     display: flex;
     flex-direction: column;
+    padding: 96px;
 }
 
 .cta-header {
@@ -114,4 +115,28 @@ img {
 .caption1 .caption2 .caption3 .caption4 {
     display: flex;
     flex-wrap: wrap;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 84px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    flex-wrap: wrap;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    font-size: 18px;
 }
