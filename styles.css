@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -109,8 +110,8 @@ img {
 
 .cta1 .cta2 .cta3 .cta4 {
    display: flex;
-   max-width: 150px;
-   max-height: 150px;
+   width: 150px;
+   height: 150px;
 }
 
 .caption1 .caption2 .caption3 .caption4 {
